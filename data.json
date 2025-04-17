@@ -1,0 +1,149 @@
+{
+  "siteInfo": {
+    "title": "Phillip Roach",
+    "description": "Web Developer & Designer",
+    "favicon": "./assets/favicon.ico"
+  },
+  "navigation": [
+    { "text": "Home", "link": "#home" },
+    { "text": "About", "link": "#about" },
+    { "text": "Skills", "link": "#skills" },
+    { "text": "Portfolio", "link": "#portfolio" },
+    { "text": "Contact", "link": "#contact" }
+  ],
+  "heroSection": {
+    "greeting": "Hi, I'm",
+    "name": "Phillip Roach",
+    "title": "Web Developer & Designer",
+    "description": "I create beautiful, functional websites that help businesses grow",
+    "ctaButton": {
+      "text": "View My Work",
+      "link": "#portfolio"
+    },
+    "contactButton": {
+      "text": "Contact Me",
+      "link": "#contact"
+    },
+    "profileImage": "./assets/profile-image.jpg"
+  },
+  "aboutSection": {
+    "title": "About Me",
+    "paragraphs": [
+      "I'm a passionate web developer with experience in creating responsive and user-friendly websites. I focus on clean code and modern design principles.",
+      "With a background in both front-end and back-end development, I can bring your web projects to life from concept to completion."
+    ],
+    "image": "./assets/about-image.jpg",
+    "stats": [
+      { "value": "3+", "label": "Years Experience" },
+      { "value": "20+", "label": "Projects Completed" },
+      { "value": "15+", "label": "Happy Clients" }
+    ]
+  },
+  "skillsSection": {
+    "title": "My Skills",
+    "subtitle": "Technologies I work with",
+    "skills": [
+      { "name": "HTML/CSS", "percentage": 90, "icon": "fab fa-html5" },
+      { "name": "JavaScript", "percentage": 85, "icon": "fab fa-js" },
+      { "name": "React", "percentage": 80, "icon": "fab fa-react" },
+      { "name": "Node.js", "percentage": 75, "icon": "fab fa-node-js" },
+      { "name": "Python", "percentage": 70, "icon": "fab fa-python" },
+      { "name": "UI/UX Design", "percentage": 85, "icon": "fas fa-palette" }
+    ]
+  },
+  "portfolioSection": {
+    "title": "My Portfolio",
+    "subtitle": "Check out some of my recent work",
+    "projects": [
+      {
+        "title": "E-commerce Website",
+        "category": "Web Development",
+        "image": "./assets/portfolio/project1.jpg",
+        "description": "A fully functional e-commerce platform with payment integration",
+        "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+        "link": "https://example.com/project1",
+        "github": "https://github.com/philliproach/project1"
+      },
+      {
+        "title": "Restaurant Booking App",
+        "category": "Web Application",
+        "image": "./assets/portfolio/project2.jpg",
+        "description": "An online reservation system for restaurants",
+        "technologies": ["React", "Firebase", "CSS", "Node.js"],
+        "link": "https://example.com/project2",
+        "github": "https://github.com/philliproach/project2"
+      },
+      {
+        "title": "Portfolio Website",
+        "category": "Web Design",
+        "image": "./assets/portfolio/project3.jpg",
+        "description": "A clean, modern portfolio for a photographer",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "link": "https://example.com/project3",
+        "github": "https://github.com/philliproach/project3"
+      },
+      {
+        "title": "Weather Dashboard",
+        "category": "Web Application",
+        "image": "./assets/portfolio/project4.jpg",
+        "description": "A weather application displaying forecasts using API",
+        "technologies": ["React", "API Integration", "CSS", "Chart.js"],
+        "link": "https://example.com/project4",
+        "github": "https://github.com/philliproach/project4"
+      }
+    ],
+    "categories": ["All", "Web Development", "Web Design", "Web Application"]
+  },
+  "testimonialsSection": {
+    "title": "Testimonials",
+    "subtitle": "What my clients say",
+    "testimonials": [
+      {
+        "text": "Phillip delivered our website on time and exceeded our expectations. Highly recommend!",
+        "author": "Jane Smith",
+        "position": "CEO, TechStart",
+        "image": "./assets/testimonials/testimonial1.jpg"
+      },
+      {
+        "text": "Working with Phillip was a great experience. He understood our needs and delivered a perfect solution.",
+        "author": "John Davis",
+        "position": "Marketing Director, GrowBiz",
+        "image": "./assets/testimonials/testimonial2.jpg"
+      },
+      {
+        "text": "Our e-commerce site has seen a 40% increase in conversions since Phillip redesigned it.",
+        "author": "Sarah Johnson",
+        "position": "Owner, Fashion Boutique",
+        "image": "./assets/testimonials/testimonial3.jpg"
+      }
+    ]
+  },
+  "contactSection": {
+    "title": "Contact Me",
+    "subtitle": "Get in touch",
+    "description": "Have a project in mind or want to know more? Feel free to reach out!",
+    "email": "phillip@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Seattle, WA",
+    "socialMedia": [
+      { "platform": "LinkedIn", "icon": "fab fa-linkedin", "link": "https://linkedin.com/in/philliproach" },
+      { "platform": "GitHub", "icon": "fab fa-github", "link": "https://github.com/philliproach" },
+      { "platform": "Twitter", "icon": "fab fa-twitter", "link": "https://twitter.com/philliproach" },
+      { "platform": "Instagram", "icon": "fab fa-instagram", "link": "https://instagram.com/philliproach" }
+    ],
+    "formFields": [
+      { "id": "name", "type": "text", "label": "Your Name", "placeholder": "Enter your name", "required": true },
+      { "id": "email", "type": "email", "label": "Email Address", "placeholder": "Enter your email", "required": true },
+      { "id": "subject", "type": "text", "label": "Subject", "placeholder": "Enter subject", "required": true },
+      { "id": "message", "type": "textarea", "label": "Message", "placeholder": "Enter your message", "required": true }
+    ],
+    "formSubmitButton": "Send Message"
+  },
+  "footer": {
+    "copyright": "© 2025 Phillip Roach. All rights reserved.",
+    "links": [
+      { "text": "Privacy Policy", "link": "/privacy" },
+      { "text": "Terms of Service", "link": "/terms" }
+    ]
+  }
+}
